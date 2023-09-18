@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.5rem;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 44%;
+    height: 55vh;
+    border-radius: 1rem 1rem 10.5rem 1rem;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.sec {
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-left: 3%;
+}
+
+
+label {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 1%, 44%);
+}
+
+input {
+    width: 7rem;
+    height: 2.8rem;
+    font-size: 1.6em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 8px;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 7px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0
+}
+
+.error {
+    font-size: 13px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+hr {
+    border: none;
+    border-top: 1.5px solid #716f6f;
+    opacity: 23%;
+    margin: 2rem;
+    margin-right: 5rem;
+}
+
+.icon {
+    position: absolute;
+    top: -3.8rem;
+    left: 90%;
+    transform: translateX(-50%);
+}
+
+#calculate {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: url("./assets/images/down-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center center;
+    border: none;
+}
+
+
+
+.age {
+    line-height: 0;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.age h1 {
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+.blue {
+    color: hsl(259, 100%, 65%)
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 5%;
+    
+}
+
+.attribution a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+
+
+
